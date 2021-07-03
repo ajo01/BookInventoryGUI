@@ -66,8 +66,9 @@ def empty():
 # insert("Sea", "Smith", 2020, 13421)
 # print(search(author="Smith"))
 # delete(1)
+# update(1, "Encyclopedia", "Bill", 2004, 849385)
+# insert("Rising Shadows", "Jill", 2021, 15521)
 
 
 connect()
-update(1, "Encyclopedia", "Bill", 2004, 849385)
 print(view())
