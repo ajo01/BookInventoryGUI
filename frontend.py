@@ -37,12 +37,12 @@ def add_command():
 
 
 def update_command():
-    backend.delete(selected_tuple[0])
+    backend.update(selected_tuple[0], title_text.get(), author_text.get(),
+                   year_text.get(), isbn_text.get())
 
 
 def delete_command():
-    backend.update(selected_tuple[0], title_text.get(), author_text.get(),
-                   year_text.get(), isbn_text.get())
+    backend.delete(selected_tuple[0])
 
 
 window = Tk()
